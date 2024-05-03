@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+    background-image:url('./HomepagePic.jpg');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-color:#cccccc;
+}
+
+.table1 {
+    background: rgba(255,255,255,0.7);
+}
+
+.table2 td {
+    padding: 15px;
+}
+
+.table3 td {
+    vertical-align: top;
+}
