@@ -17,3 +17,9 @@ body {
 .table3 td {
     vertical-align: top;
 }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
