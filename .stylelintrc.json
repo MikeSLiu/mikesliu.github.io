@@ -3,5 +3,8 @@
   "rules": {
     "indentation": 2,
     "string-quotes": "double"
+    "color-hex-length": "short",
+    "color-function-notation": "modern",
+    "alpha-value-notation": "percentage"
   }
 }
