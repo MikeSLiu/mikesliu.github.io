@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!-- favicon -->
@@ -8,36 +8,53 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- title -->
     <title>Homepage</title>
+    <style>
+        .center {
+            text-align: center;
+        }
+        .table1, .table2 {
+            width: 80%;
+            border: 1px solid #000;
+            margin: 0 auto;
+        }
+        .table1 td, .table2 td {
+            width: 25%;
+            background-color: #E8E8E8;
+        }
+        .table2 {
+            height: 880px;
+        }
+    </style>
 </head>
 <body>
-    <center>
+    <div class="center">
         <!-- header -->
-        <table class="table1" border="1" width="80%">
-            <tr style="font-size: 24px" align="center">
-                <td width="25%" bgcolor="#E8E8E8">
+        <table class="table1">
+            <tr style="font-size: 24px">
+                <td>
                     <a href="http://mikesliu.github.io/index.html"><br><b>Homepage</b></a>
                 </td>
-                <td width="25%">
+                <td>
                     <a href="http://mikesliu.github.io/about_me.html"><br>About Me</a>
                 </td>
-                <td width="25%">
+                <td>
                     <a href="http://mikesliu.github.io/showcases.html"><br>Showcases</a>
                 </td>
-                <td width="25%">
+                <td>
                     <a href="http://mikesliu.github.io/interests.html"><br>Interests</a>
                 </td>
             </tr>
         </table>
         <!-- content -->
-        <table class="table2" border="1" bgcolor="#E8E8E8" width="80%" height="880">
-            <tr style="font-size: 20px" align="center">
+        <table class="table2">
+            <tr style="font-size: 20px">
                 <td>
                     <h1>Welcome to Mike Liu's Homepage</h1>
-                    <img src="index_files/MyPic.jpeg" class="responsive" style="width: 50%;">
+                    <img src="index_files/MyPic.jpeg" class="responsive" style="width: 50%;" alt="Mike Liu's Picture">
                     <h2><i>I am a software engineer with a keen interest in robotics and automation.</i></h2>
                 </td>
             </tr>
         </table>
-    </center>
+    </div>
 </body>
 </html>
