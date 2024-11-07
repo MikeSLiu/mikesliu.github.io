@@ -1,0 +1,30 @@
+name: Validate HTML and CSS
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install HTML and CSS validators
+        run: |
+          npm install -g html-validator-cli
+          npm install -g stylelint stylelint-config-standard
+
+      - name: Validate HTML
+        run: html-validator --file=index.html --verbose  # Adjust the file path as needed
+
+      - name: Validate CSS
+        run: stylelint "**/*.css"
