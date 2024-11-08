@@ -26,6 +26,7 @@ body {
 }
 
 .table2 {
+    background: #ccc;
     width: 80%;
     border: 1px solid #000;
     margin: 0 auto;
