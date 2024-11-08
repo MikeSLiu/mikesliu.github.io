@@ -7,7 +7,7 @@ body {
 }
 
 .table1 {
-    color: rgba(255, 255, 255, 70%);
+    background: rgb(255 255 255 / 0.7);
 }
 
 .table2 td {
