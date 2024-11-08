@@ -13,7 +13,7 @@ body {
 .table1 {
     background: rgb(204 204 204 / 70%);
     width: 80%;
-    border: -1px solid #000;
+    border: -1 solid #000;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ body {
 .table2 {
     background: #ccc;
     width: 80%;
-    border: -1px solid #000;
+    border: -1 solid #000;
     margin: 0 auto;
 }
 
