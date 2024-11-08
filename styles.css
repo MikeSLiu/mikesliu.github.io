@@ -10,7 +10,7 @@ body {
     text-align: center;
 }
 
-.table1, .table2 {
+.table1 {
     background: rgb(255 255 255 / 70%);
     width: 80%;
     border: 1px solid #000;
@@ -23,6 +23,12 @@ body {
 
 .current{
     background: #ccc;
+}
+
+.table2 {
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
 }
 
 .table2 td {
