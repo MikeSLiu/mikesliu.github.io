@@ -14,7 +14,6 @@ body {
     background: rgb(204 204 204 / 70%);
     width: 80%;
     border: "-1";
-    margin: 0 auto;
 }
 
 .table1 td {
@@ -29,7 +28,6 @@ body {
     background: #ccc;
     width: 80%;
     border: "-1";
-    margin: 0 auto;
 }
 
 .table2 td {
