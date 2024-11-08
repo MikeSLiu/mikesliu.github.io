@@ -10,6 +10,10 @@ body {
     background: rgb(255 255 255 / 70%);
 }
 
+.table1 td{
+    background: #ccc;
+}
+
 .table2 td {
     padding: 15px;
 }
