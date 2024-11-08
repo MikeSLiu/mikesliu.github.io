@@ -6,8 +6,15 @@ body {
     background-color:#ccc;
 }
 
-.table1 {
+.center {
+    text-align: center;
+}
+
+.table1, table2 {
     background: rgb(255 255 255 / 70%);
+    width: 80%;
+    border: 1px solid #000;
+    margin: 0 auto;
 }
 
 .current{
