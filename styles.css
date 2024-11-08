@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
 }
 
+.table1 td {
+    width: 25%;
+}
+
 .current{
     background: #ccc;
 }
