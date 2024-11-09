@@ -1,41 +1,49 @@
 /* styles.css */
 body {
-    background-image:url('./background.jpg');
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    background-color:#ccc;
+    background-image: url('./background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #ccc;
 }
 
 .center {
     text-align: center;
 }
 
-.current{
+.current {
     background: #ccc;
 }
 
 .table1 {
     background: rgb(204 204 204 / 70%);
     width: 80%;
-    border: 2px solid #000; /* Adjusted border */
+    border: 2px solid #000;
+    /* Adjusted border */
     margin: 0 auto;
 }
 
 .table1 td {
     width: 25%;
-    border: 1px solid #000; /* Added border to table cells */
+    border: 1px solid #000;
+    /* Added border to table cells */
 }
 
 .table2 {
     background: #ccc;
     width: 80%;
-    border: 2px solid #000; /* Adjusted border */
+    border: 2px solid #000;
+    /* Adjusted border */
     margin: 0 auto;
 }
 
 .table2 td {
     padding: 15px;
-    border: 1px solid #000; /* Added border to table cells */
+    border: 1px solid #000;
+    /* Added border to table cells */
+}
+
+.table2 tr {
+    border: none;
 }
 
 .table3 td {
@@ -46,4 +54,3 @@ body {
     max-width: 100%;
     height: auto;
 }
-
