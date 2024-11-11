@@ -38,7 +38,7 @@ body {
 
 .table2 td {
     padding: 15px;
-    border: 1px solid #000;
+    border: none;
     /* Added border to table cells */
 }
 
