@@ -26,6 +26,7 @@ jobs:
       - name: Validate HTML
         run: |
           for file in $(find . -name "*.html"); do
+            echo "Validating $file"
             html-validator --file=$file --verbose
           done
 
